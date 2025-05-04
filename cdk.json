@@ -1,0 +1,11 @@
+{
+  "app": "npx ts-node src/app.ts",
+  "context": {
+    "environment": "dev",
+    "bedrockModelId": "anthropic.claude-v2",
+    "maxTokens": "1000",
+    "temperature": "0.7",
+    "bankApiUrl": "https://api.bank.example.com",
+    "bankApiKey": "your-api-key"
+  }
+} 

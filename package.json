@@ -1,0 +1,22 @@
+{
+  "name": "mcp-efi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "aws-cdk": "^2.1013.0",
+    "aws-cdk-lib": "^2.194.0",
+    "constructs": "^10.4.2"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.149",
+    "@types/node": "^22.15.3",
+    "aws-sdk": "^2.1692.0"
+  }
+}

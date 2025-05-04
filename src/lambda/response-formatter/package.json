@@ -1,0 +1,17 @@
+{
+  "name": "response-formatter",
+  "version": "1.0.0",
+  "description": "Response formatter Lambda function for Bank MCP",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.799.0",
+    "@aws-sdk/lib-dynamodb": "^3.799.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "@types/node": "^20.10.5"
+  }
+}
